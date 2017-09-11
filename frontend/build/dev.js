@@ -14,7 +14,8 @@ var server = new webpackDevServer(compiler, {
     stats: { colors: true }
 });
 server.listen(config.dev.port, "0.0.0.0");
-var url = `http://localhost:${config.dev.port}/`;
+var url = `http://192.168.4.3:8000/`;
+//var url = `http://localhost:${config.dev.port}/`;
 var opn = require('opn');
 // auto start brower
 server.middleware.waitUntilValid(function() {

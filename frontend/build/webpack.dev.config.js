@@ -11,7 +11,7 @@ var config = require('./config');
 
 Object.keys(baseWebpackConfig.entry).forEach(function (name) {
     baseWebpackConfig.entry[name] = [
-        `webpack-dev-server/client?http://localhost:${config.dev.port}/`,
+        `webpack-dev-server/client?http://192.168.4.3:8000/`,
         "webpack/hot/dev-server"
     ].concat(baseWebpackConfig.entry[name])
 });
