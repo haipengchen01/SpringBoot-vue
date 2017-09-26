@@ -45,7 +45,7 @@
                 let itemId = formName.id;
                 let phone = formName.phone;
                 let zone = formName.zone;
-                this.$axios.put('http://192.168.4.3:8000/api/persons/detail/' + itemId, {
+                this.$axios.put('http://192.168.10.11:8000/api/persons/detail/' + itemId, {
                     phone: phone,
                     zone: zone
                 })

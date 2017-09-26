@@ -6,7 +6,7 @@
 	<groupId>com.boylegu</groupId>
 	<artifactId>springboot_vue</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>springboot_vue</name>
 	<description>Demo project for Spring Boot</description>
